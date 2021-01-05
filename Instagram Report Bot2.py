@@ -22,7 +22,7 @@ args = getOptions()
 username = args.username
 acc_file = args.file
 
-if username == "" :
+if username == "" : @nafriomar
 	username = input("Username: ")
 
 a = open(acc_file, "r").readlines()
